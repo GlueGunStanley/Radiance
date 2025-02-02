@@ -13,7 +13,7 @@ Radiance is an enhanced emergency lighting visual overhaul for FiveM, bringing i
 - Zero performance impact.  
 
 ## Screenshots 📸  
-*(Add a screenshot showcasing the difference between default and Radiance lighting here.)*  
+![Radiance Lighting](https://s3-screenshots.int-cdn.lcpdfrusercontent.com/monthly_2022_04/radiance_v_cover_2.jpg.01d57ad94601cb97f30d3ee284506b77.jpg)
 
 ## Download 🔽  
 Check out the [releases](https://github.com/GlueGunStanley/Radiance/releases) page for the latest version.
