@@ -1,4 +1,4 @@
-# Radiance V version 2.1 Normal,  Bxbugs123/PoliceCarMods  4/19/2022,   GTAV version 1.58
+# Radiance V version 2.1 Bright,  Bxbugs123/PoliceCarMods  4/19/2022,   GTAV version 1.58
 # Visual Configuration Table
 # Platform tunnings:
 # MyValue.x64 x64Value
@@ -474,12 +474,12 @@ train.ambientvolume.intensityscaler	2.0
 
 
 # emissive bits
-car.headlight.day.emissive.on	        180.00
-car.headlight.night.emissive.on	        105.00
+car.headlight.day.emissive.on	        220.00
+car.headlight.night.emissive.on	        125.00
 car.headlight.day.emissive.off   	0.000
 car.headlight.night.emissive.off	0.000
 car.taillight.day.emissive.on	200.0
-car.taillight.night.emissive.on	150.0
+car.taillight.night.emissive.on	105.0
 car.taillight.day.emissive.off   	0.00
 car.taillight.night.emissive.off	0.000
 car.indicator.day.emissive.on	250.00
@@ -490,10 +490,10 @@ car.reversinglight.day.emissive.on	35.00
 car.reversinglight.night.emissive.on	15.00
 car.reversinglight.day.emissive.off	0.000
 car.reversinglight.night.emissive.off	0.000
-car.defaultlight.day.emissive.on	1700.00
-car.defaultlight.night.emissive.on	1100.00
+car.defaultlight.day.emissive.on	15000.00
+car.defaultlight.night.emissive.on	9000.00
 car.defaultlight.day.emissive.off	0.00
-car.defaultlight.night.emissive.off	0.000
+car.defaultlight.night.emissive.off	0.00
 car.brakelight.day.emissive.on	240.00
 car.brakelight.night.emissive.on	180.00
 car.brakelight.day.emissive.off	0.00
@@ -506,8 +506,8 @@ car.extralight.day.emissive.on   	350.00
 car.extralight.night.emissive.on	160.00
 car.extralight.day.emissive.off 	0.000
 car.extralight.night.emissive.off	0.00
-car.sirenlight.day.emissive.on		1500.00
-car.sirenlight.night.emissive.on	1200.00
+car.sirenlight.day.emissive.on		4500.00
+car.sirenlight.night.emissive.on	2500.00
 car.sirenlight.day.emissive.off		0.00
 car.sirenlight.night.emissive.off	0.00
 car.emissiveMultiplier 2.00
@@ -877,8 +877,8 @@ misc.3dMarkers.FrontLightIntensity	10.00
 misc.3dMarkers.frontLightExponent	32
 
 # coronas
-misc.coronas.sizeScaleGlobal					1.0
-misc.coronas.intensityScaleGlobal				1.3
+misc.coronas.sizeScaleGlobal					1.4
+misc.coronas.intensityScaleGlobal				1.6
 misc.coronas.intensityScaleWater				0.5
 misc.coronas.sizeScaleWater						0.5
 misc.coronas.sizeScaleParaboloid				1.0

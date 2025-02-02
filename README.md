@@ -7,7 +7,7 @@ Radiance is an enhanced emergency lighting visual overhaul for FiveM, bringing i
 ## Features ✨  
 - Enhanced emergency lighting visuals.
 - Server side, no client installation needed.
-- Configurable brightness levels (`bright` or `normal`).  
+- Configurable brightness levels (`bright` , `brighter` or `normal`).  
 - Easy-to-use preset system.  
 - Works with **all** emergency vehicles, including add-ons.  
 - Zero performance impact.  
@@ -23,18 +23,19 @@ Check out the [releases](https://github.com/GlueGunStanley/Radiance/releases) pa
 **2. Extract and rename the folder to `Radiance`.**  
 **3. Drag `Radiance` into your `resources` folder.**  
 **4. Go to your `server.cfg` and add `start Radiance`.**  
-**5. Configure the resource by selecting a preset (`bright` or `normal`).**  
+**5. Configure the resource by selecting a preset (`bright` , `brighter` or `normal`).**  
 
 That's it! If everything went correctly, the next time you start your server, Radiance will automatically enhance emergency lighting.
 
 ## Configuration 🔧  
-Radiance comes with two preset options:  
-- **`bright`** (default) – Enhances emergency lighting for maximum visibility.  
-- **`normal`** – More natural brightness while still improving default lighting.  
+Radiance comes with two preset options: 
+- **`normal`** (default) – More natural brightness while still improving default lighting.  
+- **`bright`** – Enhances emergency lighting for maximum visibility.  
+- **`brighter`** – For if bright is not enough and you feel like being blinded.  
 
 To change the preset, modify `fxmanifest.lua` inside the resource folder:  
 ```lua
-preset 'bright' -- Change to 'normal' if preferred
+preset 'normal' -- Change if preferred
 ```
 Radiance will automatically apply the selected preset.
 

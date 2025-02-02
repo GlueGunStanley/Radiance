@@ -13,4 +13,4 @@ files {
 
 client_script 'client/cl_main.lua'
 
-preset 'bright' -- Options: 'bright' or 'normal'
+preset 'normal' -- Options: 'bright' 'brighter' or 'normal'
